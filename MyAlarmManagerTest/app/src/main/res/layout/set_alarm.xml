@@ -4,18 +4,81 @@
     android:layout_height="match_parent">
 
     <TimePicker
+        android:layout_weight="3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/timePicker" />
 
     <EditText
+        android:layout_weight="1"
         android:textSize="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/updateMemo" />
 
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/update_toggle_sunday"
+            android:textOn="일"
+            android:textOff="일"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/update_toggle_monday"
+            android:textOn="월"
+            android:textOff="월"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/update_toggle_tuesday"
+            android:textSize="15dp"
+            android:textOn="화"
+            android:textOff="화"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/update_toggle_wednesday"
+            android:textSize="15dp"
+            android:textOn="수"
+            android:textOff="수"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/update_toggle_thursday"
+            android:textSize="15dp"
+            android:textOn="목"
+            android:textOff="목"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/update_toggle_friday"
+            android:textOn="금"
+            android:textOff="금"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/update_toggle_saturday"
+            android:textOn="토"
+            android:textOff="토"/>
+    </LinearLayout>
+
     <Button
-        android:text="Button"
+        android:layout_weight="1"
+        android:text="Update This Alarm"
         android:textSize="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

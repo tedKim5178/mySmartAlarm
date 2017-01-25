@@ -31,7 +31,8 @@ public class AlarmDbHelper extends SQLiteOpenHelper {
                 AlarmContract.AlarmlistEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT," +
                 AlarmContract.AlarmlistEntry.COLUMN_HOUR + " INTEGER NOT NULL, " +
                 AlarmContract.AlarmlistEntry.COLUMN_MINUTE + " INTEGER NOT NULL, " +
-                AlarmContract.AlarmlistEntry.COLUMN_MEMO + " TEXT" +
+                AlarmContract.AlarmlistEntry.COLUMN_MEMO + " TEXT, " +
+                AlarmContract.AlarmlistEntry.COLUMN_REPEAT + " TEXT" +
                 "); ";
 
         sqLiteDatabase.execSQL(SQL_CREATE_ALARMLIST_TABLE);

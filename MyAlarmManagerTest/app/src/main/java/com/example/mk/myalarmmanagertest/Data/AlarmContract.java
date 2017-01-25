@@ -16,5 +16,6 @@ public class AlarmContract {
         public static final String COLUMN_HOUR = "hour";
         public static final String COLUMN_MINUTE = "minute";
         public static final String COLUMN_MEMO = "memo";
+        public static final String COLUMN_REPEAT = "repeat";
     }
 }

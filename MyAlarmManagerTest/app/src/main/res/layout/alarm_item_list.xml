@@ -9,15 +9,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
-        android:layout_weight="0.5"
+        android:layout_weight="0.1"
         android:id="@+id/nothing"
         android:text=":"
-        android:textSize = "30dp"
+        android:textSize = "20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
         android:layout_weight="1"
         android:id="@+id/minuteView"
+        android:textSize = "30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/day_or_night_View"
+        android:textSize = "30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_weight="1.5"
+        android:id="@+id/repeat_day_View"
         android:textSize = "30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />

@@ -20,6 +20,7 @@
         <receiver android:name=".AlarmReceiver"/>
         <activity android:name=".AlarmActivity"></activity>
         <activity android:name=".AlarmSetting"></activity>
+        <activity android:name=".AlarmNewSetting"></activity>
     </application>
 
 </manifest>
